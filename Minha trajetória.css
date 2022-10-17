@@ -1,0 +1,47 @@
+button
+{
+  border: 0px;
+  border-radius: 4px;
+  
+  width: 64px;
+  height: 32px;
+  
+  color: black;
+  background-color: lightgray;
+}
+
+
+button:hover
+{
+  background-color: gray;
+}
+
+
+button:active
+{
+  color:pink;
+}
+
+.container{
+display: flex;
+justify-content: center;
+}
+
+
+.exemplo {
+    background-color:turquoise;
+    font-size: 30px;
+    height: 100px;
+    padding: 15px;
+    margin: 25px;
+    border-width: 25px;
+}
+p {margin:0;}
+.exemplo2 {background-color:turquoise;
+    font-size: 15px;
+    padding: 15px;
+    margin: 20px;
+    border: 5px;
+    width: 100px;
+}
+p {margin: 0;}
